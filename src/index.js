@@ -10,9 +10,9 @@ ReactDOM.render(
         <h1>Familia Lima</h1>
         <Familia sobreNome="Lima">
             <Membro nome="Marcos" />
-            {/* <Membro nome="Mateus"/>
+            <Membro nome="Mateus"/>
             <Membro nome="Maria"/>
-            <Membro nome="Felipe"/> */}
+            <Membro nome="Felipe"/>
         </Familia>
     </div>
     ,elemento)
