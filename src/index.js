@@ -6,10 +6,11 @@ import Familia from "./components/Familia";
 import Classe from "./components/ComponenteClasse"
 import Membro from "./components/Membro";
 import Pai from "./components/Pai";
+import Contador from "./components/Contador";
 const elemento = document.getElementById('root')
 const jsx = <h1>Olá React!</h1>
 ReactDOM.render(
     <div>
-        <Classe valor="Sou um componente de CLASSE!!!"/>
+        <Contador numero={10}/>
     </div>
     ,elemento)
