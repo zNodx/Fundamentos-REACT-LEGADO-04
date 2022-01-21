@@ -11,6 +11,6 @@ const elemento = document.getElementById('root')
 const jsx = <h1>Olá React!</h1>
 ReactDOM.render(
     <div>
-        <Contador numero={10}/>
+        <Contador numeroInicial={100}/>
     </div>
     ,elemento)
