@@ -1,6 +1,9 @@
-import React from "react";
+import React,{cloneElement,Children} from "react";
 
 export default props => 
     <div>
-        {props.children}
+          {cloneElement(props.children,{...props})}        
+     {/* {cloneElement(props.children, 
+    {sobreNome: props.sobreNome})} */}
+        {/* {props.children} */}
     </div>
